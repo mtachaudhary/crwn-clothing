@@ -8,7 +8,7 @@ const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
 
   return (
     <div 
-      className={`${size} menu-item`}
+      className={`${size || ''} menu-item`}
       onClick={() => navigate(linkUrl)}
     >
       <div
