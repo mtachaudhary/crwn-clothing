@@ -1,0 +1,15 @@
+.sign-in {
+  width: 23.75rem; //380px
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 0.625rem 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+}
